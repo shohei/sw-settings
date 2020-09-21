@@ -1,0 +1,1769 @@
+<?xml version="1.0"?>
+<mstns:materials xmlns:mstns="http://www.solidworks.com/sldmaterials" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.solidworks.com/sldmaterials E:\Temp\sldmaterials.xsd" xmlns:sldcolorswatch="http://www.solidworks.com/sldcolorswatch" version="2008.03">
+	<curves id="curve0">
+		<point x="1.0" y="1.0"/>
+		<point x="2.0" y="1.0"/>
+		<point x="3.0" y="1.0"/>
+	</curves>
+	<classification name="鋼鉄">
+		<material name="AISI 304" matid="1">
+			<shaders>
+				<pwshader2 name="磨かれた鋼鉄" isNewShader="1" path="\metal\steel\polished steel.p2m"/>
+				<cgshader2 name="PolishedSteel"/>
+				<pwshader name="ｽﾃﾝﾚｽ鋼"/>
+				<cgshader name="SteelAISI304"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="9DA4AC">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.19E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.29"/>
+				<GXY displayname="剛性率" value="0.75E+11"/>
+				<ALPX displayname="温度膨張率" value="0.18E-4"/>
+				<DENS displayname="密度" value="0.80E+04"/>
+				<KX displayname="熱伝導率" value="16."/>
+				<C displayname="比熱" value="0.50E+03"/>
+				<SIGXT displayname="抗張力" value="5.17017E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.06807E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="AISI 1020" matid="2">
+			<shaders>
+				<pwshader2 name="磨かれた鋼鉄" isNewShader="1" path="\metal\steel\polished steel.p2m"/>
+				<cgshader2 name="PolishedSteel"/>
+				<pwshader name="ｽﾃﾝﾚｽ鋼"/>
+				<cgshader name="SteelAISI1020"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="C6C6D1">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.20E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.29"/>
+				<GXY displayname="剛性率" value="0.77E+11"/>
+				<ALPX displayname="温度膨張率" value="0.15E-4"/>
+				<DENS displayname="密度" value="0.79E+04"/>
+				<KX displayname="熱伝導率" value="47."/>
+				<C displayname="比熱" value="0.42E+03"/>
+				<SIGXT displayname="抗張力" value="4.20507E+8"/>
+				<SIGYLD displayname="降伏強度" value="3.51571E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="合金鋼" matid="3">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｽﾃﾝﾚｽ鋼" isNewShader="1" path="\metal\steel\satin finish stainless steel.p2m"/>
+				<cgshader2 name="satinfinishstainlesssteel"/>
+				<pwshader name="磨かれた鋼鉄"/>
+				<cgshader name="SteelSatin"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="C6C6D0">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.21E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.28"/>
+				<GXY displayname="剛性率" value="0.79E+11"/>
+				<ALPX displayname="温度膨張率" value="0.13E-4"/>
+				<DENS displayname="密度" value="0.77E+04"/>
+				<KX displayname="熱伝導率" value="50."/>
+				<C displayname="比熱" value="0.46E+03"/>
+				<SIGXT displayname="抗張力" value="7.238256E+8"/>
+				<SIGYLD displayname="降伏強度" value="6.20422E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="鋳合金鋼" matid="4">
+			<shaders>
+				<pwshader2 name="ｽﾃﾝﾚｽ鋼(鋳造)" isNewShader="1" path="\metal\steel\cast stainless steel.p2m"/>
+				<cgshader2 name="caststainlesssteel"/>
+				<pwshader name="磨かれた鋼鉄"/>
+				<cgshader name="SteelCastAlloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="C5C5C5">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.19E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.26"/>
+				<GXY displayname="剛性率" value="0.78E+11"/>
+				<ALPX displayname="温度膨張率" value="0.15E-4"/>
+				<DENS displayname="密度" value="0.73E+04"/>
+				<KX displayname="熱伝導率" value="38."/>
+				<C displayname="比熱" value="0.44E+03"/>
+				<SIGXT displayname="抗張力" value="4.480825E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.412752E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="炭素鋼(鋳造)" matid="5">
+			<shaders>
+				<pwshader2 name="炭素鋼(鋳造)" isNewShader="1" path="\metal\steel\cast carbon steel.p2m"/>
+				<cgshader2 name="castcarbonsteel"/>
+				<pwshader name="磨かれた鋼鉄"/>
+				<cgshader name="SteelCastCarbon"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="686B6E">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.20E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.32"/>
+				<GXY displayname="剛性率" value="0.76E+11"/>
+				<ALPX displayname="温度膨張率" value="0.12E-4"/>
+				<DENS displayname="密度" value="0.78E+04"/>
+				<KX displayname="熱伝導率" value="30."/>
+				<C displayname="比熱" value="0.50E+03"/>
+				<SIGXT displayname="抗張力" value="4.82549E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.48168E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ｽﾃﾝﾚｽ鋼(鋳造)" matid="6">
+			<shaders>
+				<pwshader2 name="ｽﾃﾝﾚｽ鋼(鋳造)" isNewShader="1" path="\metal\steel\cast stainless steel.p2m"/>
+				<cgshader2 name="caststainlesssteel"/>
+				<pwshader name="ｽﾃﾝﾚｽ鋼(鋳造)"/>
+				<cgshader name="SteelCastStainless"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="90959F">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.19E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.26"/>
+				<GXY displayname="剛性率" value="0.79E+11"/>
+				<ALPX displayname="温度膨張率" value="0.15E-4"/>
+				<DENS displayname="密度" value="0.77E+04"/>
+				<KX displayname="熱伝導率" value="37."/>
+				<C displayname="比熱" value="0.52E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="ｽﾃﾝﾚｽ鋼(ｸﾛﾑ)" matid="7">
+			<shaders>
+				<pwshader2 name="ｸﾛﾐｳﾑﾌﾟﾚｰﾄ" isNewShader="1" path="\metal\chrome\chromium plate.p2m"/>
+				<cgshader2 name="chromiumplate"/>
+				<pwshader name="ｸﾛﾐｳﾑﾌﾟﾚｰﾄ"/>
+				<cgshader name="ChromePolished"/>
+				<swtexture path="images\textures\metal\polished\chrome6.jpg"/>
+			</shaders>
+			<swatchcolor RGB="D2DEFA">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.20E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.28"/>
+				<GXY displayname="剛性率" value="0.77E+11"/>
+				<ALPX displayname="温度膨張率" value="0.11E-04"/>
+				<DENS displayname="密度" value="0.78E+04"/>
+				<KX displayname="熱伝導率" value="18."/>
+				<C displayname="比熱" value="0.46E+03"/>
+				<SIGXT displayname="抗張力" value="4.13613E+8"/>
+				<SIGYLD displayname="降伏強度" value="1.72339E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="亜鉛ﾒｯｷ ｽﾁｰﾙ" matid="8">
+			<shaders>
+				<pwshader2 name="亜鉛ﾒｯｷ(光沢)" isNewShader="1" path="\metal\galvanized\shiny galvanized.p2m"/>
+				<cgshader2 name="shinygalvanized"/>
+				<pwshader name="亜鉛ﾒｯｷ(ﾌﾞﾗｯｼｭ加工)"/>
+				<cgshader name="SteelGalvanised"/>
+				<swtexture path="images\textures\metal\brushed\galvnisd2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="7B7D7E">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.20E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.29"/>
+				<DENS displayname="密度" value="0.787E+04"/>
+				<SIGXT displayname="抗張力" value="3.56900674542E+08"/>
+				<SIGYLD displayname="降伏強度" value="2.03943242596E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="炭素鋼(普通)" matid="9">
+			<shaders>
+				<pwshader2 name="炭素鋼" isNewShader="1" path="\metal\steel\carbon steel.p2m"/>
+				<cgshader2 name="SteelPlainCarbon"/>
+				<pwshader name="磨かれた鋼鉄"/>
+				<cgshader name="SteelPlainCarbon"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="c0c0c0">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.790000" Specularity="0.880000" Shininess="0.210000" Emission="0.210000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.21E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.28"/>
+				<GXY displayname="剛性率" value="0.79E+11"/>
+				<ALPX displayname="温度膨張率" value="0.13E-4"/>
+				<DENS displayname="密度" value="0.78E+04"/>
+				<KX displayname="熱伝導率" value="43."/>
+				<C displayname="比熱" value="0.44E+03"/>
+				<SIGXT displayname="抗張力" value="3.99826E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.20594E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ｽﾃﾝﾚｽ鋼(錬鉄細工)" matid="10">
+			<shaders>
+				<pwshader2 name="錬鋼" isNewShader="1" path="\metal\steel\wrought steel.p2m"/>
+				<cgshader2 name="wroughtstainlesssteel"/>
+				<pwshader name="ｽﾃﾝﾚｽ鋼"/>
+				<cgshader name="SteelWroughtStainless"/>
+				<swtexture path="images\textures\metal\brushed\wrought.jpg"/>
+			</shaders>
+			<swatchcolor RGB="A6ADB6">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI32 (Steel)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.20E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.26"/>
+				<GXY displayname="剛性率" value="0.79E+11"/>
+				<ALPX displayname="温度膨張率" value="0.11E-04"/>
+				<DENS displayname="密度" value="0.80E+04"/>
+				<KX displayname="熱伝導率" value="19."/>
+				<C displayname="比熱" value="0.50E+03"/>
+				<SIGXT displayname="抗張力" value="5.17017E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.06807E+8"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="鉄">
+		<material name="ﾀﾞｸﾀｲﾙ鋳鉄" matid="11">
+			<shaders>
+				<pwshader2 name="鉄(鋳造)" isNewShader="1" path="\metal\iron\cast iron.p2m"/>
+				<cgshader2 name="castiron"/>
+				<pwshader name="鉄(鋳造)"/>
+				<cgshader name="IronDuctile"/>
+				<swtexture path="images\textures\metal\cast\cast_rough.jpg"/>
+			</shaders>
+			<swatchcolor RGB="706969">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.12E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.31"/>
+				<GXY displayname="剛性率" value="0.77E+11"/>
+				<ALPX displayname="温度膨張率" value="0.11E-04"/>
+				<DENS displayname="密度" value="0.79E+04"/>
+				<KX displayname="熱伝導率" value="75."/>
+				<C displayname="比熱" value="0.45E+03"/>
+				<SIGXT displayname="抗張力" value="8.61695E+8"/>
+				<SIGYLD displayname="降伏強度" value="5.51485E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ねずみ鋳鉄" matid="12">
+			<shaders>
+				<pwshader2 name="鉄(鋳造)" isNewShader="1" path="\metal\iron\cast iron.p2m"/>
+				<cgshader2 name="castiron"/>
+				<pwshader name="鉄(鋳造)"/>
+				<cgshader name="IronCast"/>
+				<swtexture path="images\textures\metal\cast\cast_rough.jpg"/>
+			</shaders>
+			<swatchcolor RGB="706969">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="6.61781E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.27"/>
+				<GXY displayname="剛性率" value="0.50E+11"/>
+				<ALPX displayname="温度膨張率" value="0.12E-04"/>
+				<DENS displayname="密度" value="0.72E+04"/>
+				<KX displayname="熱伝導率" value="45."/>
+				<C displayname="比熱" value="0.51E+03"/>
+				<SIGXT displayname="抗張力" value="1.51658E+8"/>
+				<SIGXC displayname="圧縮強度" value="5.72165E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="可鍛鋳鉄" matid="13">
+			<shaders>
+				<pwshader2 name="鉄(鋳造)" isNewShader="1" path="\metal\iron\cast iron.p2m"/>
+				<cgshader2 name="castiron"/>
+				<pwshader name="鉄(鋳造)(2d)"/>
+				<cgshader name="IronMalleableCast"/>
+				<swtexture path="images\textures\metal\cast\cast_rough.jpg"/>
+			</shaders>
+			<swatchcolor RGB="706969">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.19E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.27"/>
+				<GXY displayname="剛性率" value="0.86E+11"/>
+				<ALPX displayname="温度膨張率" value="0.12E-04"/>
+				<DENS displayname="密度" value="0.73E+04"/>
+				<KX displayname="熱伝導率" value="47."/>
+				<C displayname="比熱" value="0.51E+03"/>
+				<SIGXT displayname="抗張力" value="4.13613E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.75742E+8"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="ｱﾙﾐ合金">
+		<material name="1060 合金" matid="14">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="AluminumSatin"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="979EA6">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.69E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.27E+11"/>
+				<ALPX displayname="温度膨張率" value="0.24E-04"/>
+				<DENS displayname="密度" value="0.27E+04"/>
+				<KX displayname="熱伝導率" value="0.20E+03"/>
+				<C displayname="比熱" value="0.90E+03"/>
+				<SIGXT displayname="抗張力" value="6.89356E+7"/>
+				<SIGYLD displayname="降伏強度" value="2.75742E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="1345 合金" matid="15">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="ｱﾙﾐﾆｳﾑ1345合金"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="8A9097">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.69E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.27E+11"/>
+				<ALPX displayname="温度膨張率" value="0.24E-04"/>
+				<DENS displayname="密度" value="0.27E+04"/>
+				<KX displayname="熱伝導率" value="0.22E+03"/>
+				<C displayname="比熱" value="0.10E+04"/>
+				<SIGXT displayname="抗張力" value="8.27227E+7"/>
+				<SIGYLD displayname="降伏強度" value="2.75742E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="1350 合金" matid="16">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="ｱﾙﾐﾆｳﾑ1350合金"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="90969D">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.69E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.27E+11"/>
+				<ALPX displayname="温度膨張率" value="0.24E-04"/>
+				<DENS displayname="密度" value="0.27E+04"/>
+				<KX displayname="熱伝導率" value="0.23E+03"/>
+				<C displayname="比熱" value="0.10E+04"/>
+				<SIGXT displayname="抗張力" value="8.27227E+7"/>
+				<SIGYLD displayname="降伏強度" value="2.75742E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="2014 合金" matid="17">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="Aluminum2014Alloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="91989F">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.73E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.28E+11"/>
+				<ALPX displayname="温度膨張率" value="0.23E-04"/>
+				<DENS displayname="密度" value="0.28E+04"/>
+				<KX displayname="熱伝導率" value="0.16E+03"/>
+				<C displayname="比熱" value="0.96E+03"/>
+				<SIGXT displayname="抗張力" value="1.65445E+8"/>
+				<SIGYLD displayname="降伏強度" value="9.65098E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="2018 合金" matid="18">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="Aluminum2018Alloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="9BA1A9">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.74E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.27E+11"/>
+				<ALPX displayname="温度膨張率" value="0.22E-04"/>
+				<DENS displayname="密度" value="0.28E+04"/>
+				<KX displayname="熱伝導率" value="0.15E+03"/>
+				<C displayname="比熱" value="0.10E+04"/>
+				<SIGXT displayname="抗張力" value="4.20507E+8"/>
+				<SIGYLD displayname="降伏強度" value="3.17104E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="2024 合金" matid="19">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="Aluminum2024Alloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="8E939C">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.73E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.28E+11"/>
+				<ALPX displayname="温度膨張率" value="0.23E-04"/>
+				<DENS displayname="密度" value="0.28E+04"/>
+				<KX displayname="熱伝導率" value="0.14E+03"/>
+				<C displayname="比熱" value="0.80E+03"/>
+				<SIGXT displayname="抗張力" value="1.86126E+8"/>
+				<SIGYLD displayname="降伏強度" value="7.58291E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="3003 合金" matid="20">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="Aluminum3003Alloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="6D757E">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.69E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.27E+11"/>
+				<ALPX displayname="温度膨張率" value="0.23E-04"/>
+				<DENS displayname="密度" value="0.27E+04"/>
+				<KX displayname="熱伝導率" value="0.17E+03"/>
+				<C displayname="比熱" value="0.10E+04"/>
+				<SIGXT displayname="抗張力" value="1.10297E+8"/>
+				<SIGYLD displayname="降伏強度" value="4.13613E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="6061 合金" matid="21">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="Aluminum6061Alloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="DDDDE3">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.69E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.26E+11"/>
+				<ALPX displayname="温度膨張率" value="0.24E-04"/>
+				<DENS displayname="密度" value="0.27E+04"/>
+				<KX displayname="熱伝導率" value="0.17E+03"/>
+				<C displayname="比熱" value="0.13E+04"/>
+				<SIGXT displayname="抗張力" value="1.24084E+8"/>
+				<SIGYLD displayname="降伏強度" value="5.51485E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="7079 合金" matid="22">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げｱﾙﾐﾆｳﾑ" isNewShader="1" path="\metal\aluminum\satin finish aluminum.p2m"/>
+				<cgshader2 name="satinfinishaluminum"/>
+				<pwshader name="磨かれたｱﾙﾐﾆｳﾑ"/>
+				<cgshader name="Aluminum7079Alloy"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="E3E3E9">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI38 (Aluminum)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.72E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.27E+11"/>
+				<ALPX displayname="温度膨張率" value="0.25E-04"/>
+				<DENS displayname="密度" value="0.27E+04"/>
+				<KX displayname="熱伝導率" value="0.12E+03"/>
+				<C displayname="比熱" value="0.96E+03"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="その他の合金">
+		<material name="Duranickel(R) 301" matid="23">
+			<shaders>
+				<pwshader2 name="ﾌﾞﾗｯｼｭ加工のﾆｯｹﾙ" isNewShader="1" path="\metal\nickel\brushed nickel.p2m"/>
+				<cgshader2 name="brushednickel"/>
+				<pwshader name="ﾌﾞﾗｯｼｭ加工のﾆｯｹﾙ"/>
+				<cgshader name="NickelBrushed"/>
+				<swtexture path="images\textures\metal\brushed\brshmtl8.jpg"/>
+			</shaders>
+			<swatchcolor RGB="868B94">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.21E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.34"/>
+				<GXY displayname="剛性率" value="0.77E+11"/>
+				<ALPX displayname="温度膨張率" value="0.15E-04"/>
+				<DENS displayname="密度" value="0.82E+04"/>
+				<KX displayname="熱伝導率" value="24."/>
+				<C displayname="比熱" value="0.59E+03"/>
+				<SIGXT displayname="抗張力" value="6.20420E+8"/>
+				<SIGYLD displayname="降伏強度" value="3.44678E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾏｸﾞﾈｼﾞｳﾑ合金" matid="24">
+			<shaders>
+				<pwshader2 name="ﾌﾞﾗｯｼｭ加工のﾏｸﾞﾈｼﾞｳﾑ" isNewShader="1" path="\metal\magnesium\brushed magnesium.p2m"/>
+				<cgshader2 name="brushedmagnesium"/>
+				<pwshader name="ﾏｸﾞﾈｼﾞｳﾑ"/>
+				<cgshader name="alloymagnesium"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="8B909A">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI37 (Lead Zinc Mg)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.45E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.35"/>
+				<GXY displayname="剛性率" value="0.17E+11"/>
+				<ALPX displayname="温度膨張率" value="0.25E-04"/>
+				<DENS displayname="密度" value="0.17E+04"/>
+				<KX displayname="熱伝導率" value="0.16E+03"/>
+				<C displayname="比熱" value="0.10E+04"/>
+			</physicalproperties>
+		</material>
+		<material name="Monel(R) 400" matid="25">
+			<shaders>
+				<pwshader2 name="ﾌﾞﾗｯｼｭ加工のﾆｯｹﾙ" isNewShader="1" path="\metal\nickel\brushed nickel.p2m"/>
+				<cgshader2 name="brushednickel"/>
+				<pwshader name="ﾌﾞﾗｯｼｭ加工のﾆｯｹﾙ"/>
+				<cgshader name="alloymonel400"/>
+				<swtexture path="images\textures\metal\brushed\brshmtl8.jpg"/>
+			</shaders>
+			<swatchcolor RGB="868B94">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.18E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.34"/>
+				<GXY displayname="剛性率" value="0.67E+11"/>
+				<ALPX displayname="温度膨張率" value="0.14E-04"/>
+				<DENS displayname="密度" value="0.88E+04"/>
+				<KX displayname="熱伝導率" value="22."/>
+				<C displayname="比熱" value="0.43E+03"/>
+				<SIGXT displayname="抗張力" value="4.48081E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.20594E+8"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="銅と銅合金">
+		<material name="ｱﾙﾐ青銅" matid="26">
+			<shaders>
+				<pwshader2 name="磨かれた青銅" isNewShader="1" path="\metal\bronze\polished bronze.p2m"/>
+				<cgshader2 name="BronzeAluminum"/>
+				<pwshader name="光沢仕上げの青銅"/>
+				<cgshader name="BronzeAluminum"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="9B845A">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.0250000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.11E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.30"/>
+				<GXY displayname="剛性率" value="0.43E+11"/>
+				<ALPX displayname="温度膨張率" value="0.17E-04"/>
+				<DENS displayname="密度" value="0.74E+04"/>
+				<KX displayname="熱伝導率" value="56."/>
+				<C displayname="比熱" value="0.38E+03"/>
+				<SIGXT displayname="抗張力" value="5.51485E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.75742E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="黄銅" matid="27">
+			<shaders>
+				<pwshader2 name="磨かれた黄銅" isNewShader="1" path="\metal\brass\polished brass.p2m"/>
+				<cgshader2 name="polishedbrass"/>
+				<pwshader name="磨かれた黄銅"/>
+				<cgshader name="BrassPolished"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="A06B30">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.0250000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.10E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.37E+11"/>
+				<ALPX displayname="温度膨張率" value="0.18E-04"/>
+				<DENS displayname="密度" value="0.85E+04"/>
+				<KX displayname="熱伝導率" value="0.11E+03"/>
+				<C displayname="比熱" value="0.39E+03"/>
+				<SIGXT displayname="抗張力" value="4.78413E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.39689E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="銅" matid="28">
+			<shaders>
+				<pwshader2 name="磨かれた銅" isNewShader="1" path="\metal\copper\polished copper.p2m"/>
+				<cgshader2 name="polishedcopper"/>
+				<pwshader name="銅"/>
+				<cgshader name="CopperPolished"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="B9725E">
+				<sldcolorswatch:Optical Ambient="0.500000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.0250000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.11E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.37"/>
+				<GXY displayname="剛性率" value="0.40E+11"/>
+				<ALPX displayname="温度膨張率" value="0.24E-04"/>
+				<DENS displayname="密度" value="0.89E+04"/>
+				<KX displayname="熱伝導率" value="0.39E+03"/>
+				<C displayname="比熱" value="0.39E+03"/>
+				<SIGXT displayname="抗張力" value="3.94380E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.58646E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="青銅(有鉛、工業用)" matid="29">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げ青銅" isNewShader="1" path="\metal\bronze\satin finish bronze.p2m"/>
+				<cgshader2 name="satinfinishbronze"/>
+				<pwshader name="磨かれた青銅"/>
+				<cgshader name="BronzeCommercial"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="BD8759">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.11E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.37"/>
+				<GXY displayname="剛性率" value="0.41E+11"/>
+				<ALPX displayname="温度膨張率" value="0.32E-04"/>
+				<DENS displayname="密度" value="0.87E+04"/>
+				<KX displayname="熱伝導率" value="26."/>
+				<C displayname="比熱" value="0.34E+03"/>
+				<SIGXT displayname="抗張力" value="2.55062E+8"/>
+				<SIGYLD displayname="降伏強度" value="8.27227E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾏﾝｶﾞﾝ青銅" matid="30">
+			<shaders>
+				<pwshader2 name="ﾏﾝｶﾞﾝ青銅" isNewShader="1" path="\metal\bronze\Manganese Bronze.p2m"/>
+				<cgshader2 name="manganesebronze"/>
+				<pwshader name="ﾏﾝｶﾞﾝ青銅"/>
+				<cgshader name="BronzeManganese"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="AC8759">
+				<sldcolorswatch:Optical Ambient="0.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.01500000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.11E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.37"/>
+				<GXY displayname="剛性率" value="0.39E+11"/>
+				<ALPX displayname="温度膨張率" value="0.22E-04"/>
+				<DENS displayname="密度" value="0.83E+04"/>
+				<KX displayname="熱伝導率" value="9.6"/>
+				<C displayname="比熱" value="0.38E+03"/>
+				<SIGXT displayname="抗張力" value="4.48081E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.06807E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="青銅(ｽｽﾞ受)" matid="31">
+			<shaders>
+				<pwshader2 name="磨かれた青銅" isNewShader="1" path="\metal\bronze\polished bronze.p2m"/>
+				<cgshader2 name="BronzeTinBearing"/>
+				<pwshader name="光沢仕上げの青銅"/>
+				<cgshader name="BronzeTinBearing"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="946E59">
+				<sldcolorswatch:Optical Ambient="0.500000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.01500000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="1.10E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.37E+11"/>
+				<ALPX displayname="温度膨張率" value="0.18E-04"/>
+				<DENS displayname="密度" value="0.83E+04"/>
+				<KX displayname="熱伝導率" value="47."/>
+				<C displayname="比熱" value="0.38E+03"/>
+				<SIGXT displayname="抗張力" value="2.61955E+8"/>
+				<SIGYLD displayname="降伏強度" value="1.10297E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="銅(錬鉄細工)" matid="32">
+			<shaders>
+				<pwshader2 name="錬銅" isNewShader="1" path="\metal\copper\wrought copper.p2m"/>
+				<cgshader2 name="wroughtcopper"/>
+				<pwshader name="光沢仕上げの銅" isNewShader="1"/>
+				<cgshader name="CopperWrought"/>
+				<swtexture path="images\textures\metal\brushed\wrought.jpg"/>
+			</shaders>
+			<swatchcolor RGB="AF6D23">
+				<sldcolorswatch:Optical Ambient="0.500000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.0250000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI33 (Bronze Brass)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.11E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.33"/>
+				<GXY displayname="剛性率" value="0.40E+11"/>
+				<ALPX displayname="温度膨張率" value="0.20E-04"/>
+				<DENS displayname="密度" value="0.84E+04"/>
+				<KX displayname="熱伝導率" value="0.23E+03"/>
+				<C displayname="比熱" value="0.38E+03"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="ﾌﾟﾗｽﾁｯｸ">
+		<material name="ABS" matid="33">
+			<shaders>
+				<pwshader2 name="PW-MT11050(白)" isNewShader="1" path="\plastic\textured\White-PW-MT11050.p2m"/>
+				<cgshader2 name="PlasticPolystyrene" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPolystyrene" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.00000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.20E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.394"/>
+				<GXY displayname="剛性率" value="0.3189E+09"/>
+				<DENS displayname="密度" value="0.102E+04"/>
+				<KX displayname="熱伝導率" value="0.2256"/>
+				<C displayname="比熱" value="0.1386E+04"/>
+				<SIGXT displayname="抗張力" value="0.30E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ABS PC" matid="34">
+			<shaders>
+				<pwshader2 name="polycarbonate.p2m" isNewShader="1" path="\plastic\clear plastic\polycarbonate.p2m"/>
+				<cgshader2 name="polycarbonateplastic" ignorescolor="false"/>
+				<pwshader name="透き通ったｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPolycarbonate" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.00000" Transparency="0.6800000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.241E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.3897"/>
+				<GXY displayname="剛性率" value="0.8622E+09"/>
+				<DENS displayname="密度" value="0.107E+04"/>
+				<KX displayname="熱伝導率" value="0.2618"/>
+				<C displayname="比熱" value="0.19E+04"/>
+				<SIGXT displayname="抗張力" value="0.40E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ｱｸﾘﾙ (中-上級の耐衝撃性)" matid="35">
+			<shaders>
+				<pwshader2 name="ポリカーボネート" isNewShader="1" path="\plastic\clear plastic\Polycarbonate.p2m"/>
+				<cgshader2 name="PlasticAcrylic" ignorescolor="false"/>
+				<pwshader name="半透明な光沢のあるﾌﾟﾗｽﾁｯｸ"/>
+				<cgshader name="PlasticAcrylic" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.700000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.24E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.35"/>
+				<GXY displayname="剛性率" value="0.89E+09"/>
+				<ALPX displayname="温度膨張率" value="0.52E-04"/>
+				<DENS displayname="密度" value="0.12E+04"/>
+				<KX displayname="熱伝導率" value="0.21"/>
+				<C displayname="比熱" value="0.15E+04"/>
+				<SIGXT displayname="抗張力" value="5.17017E+8"/>
+				<SIGYLD displayname="降伏強度" value="2.06807E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾅｲﾛﾝ 6/10" matid="36">
+			<shaders>
+				<pwshader2 name="polypropylene.p2m" isNewShader="1" path="\plastic\clear plastic\polypropylene.p2m"/>
+				<cgshader2 name="polypropyleneplastic" ignorescolor="false"/>
+				<pwshader name="透き通ったｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticNylon" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.150000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.83E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.28"/>
+				<GXY displayname="剛性率" value="0.32E+10"/>
+				<ALPX displayname="温度膨張率" value="0.30E-04"/>
+				<DENS displayname="密度" value="0.14E+04"/>
+				<KX displayname="熱伝導率" value="0.53"/>
+				<C displayname="比熱" value="0.15E+04"/>
+				<SIGXT displayname="抗張力" value="1.42559E+8"/>
+				<SIGYLD displayname="降伏強度" value="1.39043E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="PA Type 6" matid="37">
+			<shaders>
+				<pwshader2 name="高光沢のﾗｲﾄ ｸﾞﾚｲ色ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\high gloss\light grey high gloss plastic.p2m"/>
+				<cgshader2 name="lightgreylowglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticShiny" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.262E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.34"/>
+				<GXY displayname="剛性率" value="0.9704E+09"/>
+				<DENS displayname="密度" value="0.112E+04"/>
+				<KX displayname="熱伝導率" value="0.233"/>
+				<C displayname="比熱" value="0.1601E+04"/>
+				<SIGXT displayname="抗張力" value="0.9E+08"/>
+				<SIGYLD displayname="降伏強度" value="1.03648886E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="PBT (一般用)" matid="38">
+			<shaders>
+				<pwshader2 name="高光沢のﾗｲﾄ ｸﾞﾚｲ色ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\high gloss\light grey high gloss plastic.p2m"/>
+				<cgshader2 name="lightgreylowglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticShiny" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.193E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.3902"/>
+				<GXY displayname="剛性率" value="0.6902E+09"/>
+				<DENS displayname="密度" value="0.13E+04"/>
+				<KX displayname="熱伝導率" value="0.2741E+00"/>
+				<C displayname="比熱" value="0.1421E+04"/>
+				<SIGXT displayname="抗張力" value="0.565E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘｶｰﾎﾞﾈｰﾄ(PC)高粘度" matid="39">
+			<shaders>
+				<pwshader2 name="polycarbonate.p2m" isNewShader="1" path="\plastic\clear plastic\polycarbonate.p2m"/>
+				<cgshader2 name="polycarbonateplastic" ignorescolor="false"/>
+				<pwshader name="透き通ったｲｿﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPolycarbonate" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.1250000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.232E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.3912"/>
+				<GXY displayname="剛性率" value="0.8291E+09"/>
+				<DENS displayname="密度" value="0.119E+04"/>
+				<KX displayname="熱伝導率" value="0.189"/>
+				<C displayname="比熱" value="0.1535E+04"/>
+				<SIGXT displayname="抗張力" value="0.627E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘｴﾁﾚﾝ(PE)高密度" matid="40">
+			<shaders>
+				<pwshader2 name="高光沢のﾗｲﾄ ｸﾞﾚｲ色ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\high gloss\light grey high gloss plastic.p2m"/>
+				<cgshader2 name="lightgreylowglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticShiny" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.107E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.4101"/>
+				<GXY displayname="剛性率" value="0.3772E+09"/>
+				<DENS displayname="密度" value="0.952E+03"/>
+				<KX displayname="熱伝導率" value="0.461"/>
+				<C displayname="比熱" value="0.1796E+04"/>
+				<SIGXT displayname="抗張力" value="0.221E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘｴﾁﾚﾝ(PE)低/中密度" matid="41">
+			<shaders>
+				<pwshader2 name="高光沢のﾗｲﾄ ｸﾞﾚｲ色ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\high gloss\light grey high gloss plastic.p2m"/>
+				<cgshader2 name="lightgreylowglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticShiny" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.172E+09"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.439"/>
+				<GXY displayname="剛性率" value="0.594E+08"/>
+				<DENS displayname="密度" value="0.917E+03"/>
+				<KX displayname="熱伝導率" value="0.322"/>
+				<C displayname="比熱" value="0.1842E+04"/>
+				<SIGXT displayname="抗張力" value="0.1327E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘｵｷｼﾒﾁﾚﾝ(POM)ｱｾﾀｰﾙ共重合体" matid="42">
+			<shaders>
+				<pwshader2 name="高光沢のﾗｲﾄ ｸﾞﾚｲ色ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\high gloss\light grey high gloss plastic.p2m"/>
+				<cgshader2 name="lightgreylowglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticShiny" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.26E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.3859"/>
+				<GXY displayname="剛性率" value="0.9328E+09"/>
+				<DENS displayname="密度" value="0.139E+04"/>
+				<KX displayname="熱伝導率" value="0.221"/>
+				<C displayname="比熱" value="0.1378E+04"/>
+				<SIGXT displayname="抗張力" value="0.715E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘﾌﾟﾛﾋﾟﾚﾝ(PP)共重合体" matid="43">
+			<shaders>
+				<pwshader2 name="高光沢のﾗｲﾄ ｸﾞﾚｲ色ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\high gloss\light grey high gloss plastic.p2m"/>
+				<cgshader2 name="lightgreylowglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticShiny" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.896E+09"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.4103"/>
+				<GXY displayname="剛性率" value="0.3158E+09"/>
+				<DENS displayname="密度" value="0.89E+03"/>
+				<KX displayname="熱伝導率" value="0.147E+00"/>
+				<C displayname="比熱" value="0.1881E+04"/>
+				<SIGXT displayname="抗張力" value="0.276E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘｽﾁﾚﾝ(PS)中/高流量" matid="44">
+			<shaders>
+				<pwshader2 name="PW-MT11050(白)" isNewShader="1" path="\plastic\textured\White-PW-MT11050.p2m"/>
+				<cgshader2 name="PlasticPolystyrene" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPolystyrene" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.228E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.387"/>
+				<GXY displayname="剛性率" value="0.8173E+09"/>
+				<DENS displayname="密度" value="0.104E+04"/>
+				<KX displayname="熱伝導率" value="0.121"/>
+				<C displayname="比熱" value="0.1691E+04"/>
+				<SIGXT displayname="抗張力" value="0.359E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘ塩化ﾋﾞﾆﾙ(PVC) 0.007 軟質" matid="45">
+			<shaders>
+				<pwshader2 name="中光沢の白ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\medium gloss\white medium gloss plastic.p2m"/>
+				<cgshader2 name="whitemediumglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPVC" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.6E+07"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.47"/>
+				<GXY displayname="剛性率" value="0.2E+07"/>
+				<DENS displayname="密度" value="0.129E+04"/>
+				<KX displayname="熱伝導率" value="0.16"/>
+				<C displayname="比熱" value="0.16E+04"/>
+				<SIGXT displayname="抗張力" value="0.13E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘ塩化ﾋﾞﾆﾙ(PVC)硬質" matid="46">
+			<shaders>
+				<pwshader2 name="中光沢の白ﾌﾟﾗｽﾁｯｸ" isNewShader="1" path="\plastic\medium gloss\white medium gloss plastic.p2m"/>
+				<cgshader2 name="whitemediumglossplastic" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPVC" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.241E+10"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.3825"/>
+				<GXY displayname="剛性率" value="0.8667E+09"/>
+				<DENS displayname="密度" value="0.13E+04"/>
+				<KX displayname="熱伝導率" value="0.147"/>
+				<C displayname="比熱" value="0.1355E+04"/>
+				<SIGXT displayname="抗張力" value="0.407E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="Perspex (TM) GS ｱｸﾘﾙ ｷｬｽﾄ ｼｰﾄ" matid="47">
+			<shaders>
+				<pwshader2 name="ポリプロピレン" isNewShader="1" path="\plastic\clear plastic\polypropylene.p2m"/>
+				<cgshader2 name="polypropyleneplastic" ignorescolor="false"/>
+				<pwshader name="透き通ったﾎﾟﾘｴﾁﾚﾝ"/>
+				<cgshader name="PlasticPerspex" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.125000" Diffuse="0.500000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="0.119E+04"/>
+				<SIGXT displayname="抗張力" value="0.75E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾎﾟﾘ四ﾌｯ化ｴﾁﾚﾝ(PTFE) (一般用)" matid="48">
+			<shaders>
+				<pwshader2 name="PW-MT11050(白)" isNewShader="1" path="\plastic\textured\White-PW-MT11050.p2m"/>
+				<cgshader2 name="PlasticPolystyrene" ignorescolor="false"/>
+				<pwshader name="ｲｵﾉﾏｰ樹脂"/>
+				<cgshader name="PlasticPTFE" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="b2b2b2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.000000" Specularity="1.000000" Shininess="0.050000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="0.232E+04"/>
+				<SIGXT displayname="抗張力" value="07.58E+06"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="その他の金属">
+		<material name="ｺﾊﾞﾙﾄ" matid="49">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げﾆｯｹﾙ" isNewShader="1" path="\metal\nickel\satin finish nickel.p2m"/>
+				<cgshader2 name="satinfinishnickel"/>
+				<pwshader name="ﾊﾞﾅｼﾞｳﾑ"/>
+				<cgshader name="cobalt"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="9197AF">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="2.11E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.31"/>
+				<GXY displayname="剛性率" value="0.88E+11"/>
+				<ALPX displayname="温度膨張率" value="0.12E-04"/>
+				<DENS displayname="密度" value="0.89E+04"/>
+				<KX displayname="熱伝導率" value="69."/>
+				<C displayname="比熱" value="0.41E+03"/>
+				<SIGXT displayname="抗張力" value="2.35E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾓﾘﾌﾞﾃﾞﾝ" matid="50">
+			<shaders>
+				<pwshader2 name="磨かれた銀" isNewShader="1" path="\metal\silver\Polished Silver.p2m"/>
+				<cgshader2 name="polishedsilver"/>
+				<pwshader name="ﾓﾘﾌﾞﾃﾞﾝ"/>
+				<cgshader name="Molybdenum"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="87918D">
+				<sldcolorswatch:Optical Ambient="0.800000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.600000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.32E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.38"/>
+				<GXY displayname="剛性率" value="0.12E+12"/>
+				<ALPX displayname="温度膨張率" value="0.50E-05"/>
+				<DENS displayname="密度" value="0.10E+05"/>
+				<KX displayname="熱伝導率" value="0.15E+03"/>
+				<C displayname="比熱" value="0.27E+03"/>
+				<SIGXT displayname="抗張力" value="5.00E+8"/>
+				<SIGYLD displayname="降伏強度" value="3.25E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾆｯｹﾙ" matid="51">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げﾆｯｹﾙ" isNewShader="1" path="\metal\nickel\satin finish nickel.p2m"/>
+				<cgshader2 name="satinfinishnickel"/>
+				<pwshader name="ﾆｯｹﾙ"/>
+				<cgshader name="NickelPolished"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="DADFDB">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.21E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.31"/>
+				<GXY displayname="剛性率" value="0.79E+11"/>
+				<ALPX displayname="温度膨張率" value="0.17E-04"/>
+				<DENS displayname="密度" value="0.85E+04"/>
+				<KX displayname="熱伝導率" value="43."/>
+				<C displayname="比熱" value="0.46E+03"/>
+				<SIGXT displayname="抗張力" value="3.17E+8"/>
+				<SIGYLD displayname="降伏強度" value="5.90E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="純金" matid="52">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げ金" isNewShader="1" path="\metal\gold\satin finish gold.p2m"/>
+				<cgshader2 name="satinfinishgold"/>
+				<pwshader name="金"/>
+				<cgshader name="GoldDull"/>
+				<swtexture path="images\textures\metal\brushed\wrought.jpg"/>
+			</shaders>
+			<swatchcolor RGB="C5BB2D">
+				<sldcolorswatch:Optical Ambient="0.80000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.15000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.78E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.42"/>
+				<GXY displayname="剛性率" value="0.26E+11"/>
+				<ALPX displayname="温度膨張率" value="0.14E-04"/>
+				<DENS displayname="密度" value="0.19E+05"/>
+				<KX displayname="熱伝導率" value="0.30E+03"/>
+				<C displayname="比熱" value="0.13E+03"/>
+				<SIGXT displayname="抗張力" value="1.03E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="鉛(純分)" matid="53">
+			<shaders>
+				<pwshader2 name="つや消し鉛" path="\metal\lead\matte lead.p2m"/>
+				<cgshader2 name="mattelead"/>
+				<pwshader name="鉛"/>
+				<cgshader name="LeadPure"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="505050">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.14E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.40"/>
+				<GXY displayname="剛性率" value="0.49E+11"/>
+				<ALPX displayname="温度膨張率" value="0.53E-04"/>
+				<DENS displayname="密度" value="0.11E+05"/>
+				<KX displayname="熱伝導率" value="35."/>
+				<C displayname="比熱" value="0.13E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="純銀" matid="54">
+			<shaders>
+				<pwshader2 name="磨かれた銀" isNewShader="1" path="\metal\silver\Polished Silver.p2m"/>
+				<cgshader2 name="polishedsilver"/>
+				<pwshader name="銀ﾌﾟﾚｰﾄ"/>
+				<cgshader name="silverpure"/>
+				<swtexture path="images\textures\metal\brushed\wrought.jpg"/>
+			</shaders>
+			<swatchcolor RGB="969696">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.2000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.71E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.37"/>
+				<GXY displayname="剛性率" value="0.25E+11"/>
+				<ALPX displayname="温度膨張率" value="0.20E-04"/>
+				<DENS displayname="密度" value="0.11E+05"/>
+				<KX displayname="熱伝導率" value="0.42E+03"/>
+				<C displayname="比熱" value="0.23E+03"/>
+				<SIGXT displayname="抗張力" value="1.25E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾁﾀﾝ" matid="55">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げﾁﾀﾝ" isNewShader="1" path="\metal\titanium\Satin Finish Titanium.p2m"/>
+				<cgshader2 name="satinfinishtitanium"/>
+				<pwshader name="ﾁﾀﾝ"/>
+				<cgshader name="Titanium"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="8E8B88">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.11E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.30"/>
+				<GXY displayname="剛性率" value="0.43E+11"/>
+				<ALPX displayname="温度膨張率" value="0.88E-05"/>
+				<DENS displayname="密度" value="0.46E+04"/>
+				<KX displayname="熱伝導率" value="22."/>
+				<C displayname="比熱" value="0.46E+03"/>
+				<SIGXT displayname="抗張力" value="2.35E+8"/>
+				<SIGYLD displayname="降伏強度" value="1.40E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾀﾞﾝｸﾞｽﾃﾝ" matid="56">
+			<shaders>
+				<pwshader2 name="ｻﾃﾝ仕上げﾀﾞﾝｸﾞｽﾃﾝ" isNewShader="1" path="\metal\tungsten\Satin Finish Tungsten.p2m"/>
+				<cgshader2 name="satinfinishtungsten"/>
+				<pwshader name="ﾀﾞﾝｸﾞｽﾃﾝ"/>
+				<cgshader name="tungsten"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="929393">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="1.24E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.28"/>
+				<GXY displayname="剛性率" value="0.16E+12"/>
+				<ALPX displayname="温度膨張率" value="0.45E-05"/>
+				<DENS displayname="密度" value="0.19E+05"/>
+				<KX displayname="熱伝導率" value="0.20E+03"/>
+				<C displayname="比熱" value="0.13E+03"/>
+				<SIGXT displayname="抗張力" value="3.10E+8"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾊﾞﾅｼﾞｳﾑ" matid="57">
+			<shaders>
+				<pwshader2 name="磨かれた鋼鉄" isNewShader="1" path="\metal\steel\polished steel.p2m"/>
+				<cgshader2 name="PolishedSteel"/>
+				<pwshader name="ﾊﾞﾅｼﾞｳﾑ"/>
+				<cgshader name="Vanadium"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="858585">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.14E+12"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.36"/>
+				<GXY displayname="剛性率" value="0.51E+11"/>
+				<ALPX displayname="温度膨張率" value="0.83E-05"/>
+				<DENS displayname="密度" value="0.61E+04"/>
+				<KX displayname="熱伝導率" value="31."/>
+				<C displayname="比熱" value="0.50E+03"/>
+				<SIGXT displayname="抗張力" value="5.30E+7"/>
+			</physicalproperties>
+		</material>
+		<material name="ｼﾞﾙｺﾆｳﾑ" matid="58">
+			<shaders>
+				<pwshader2 name="磨かれた亜鉛" isNewShader="1" path="\metal\zinc\Polished Zinc.p2m"/>
+				<cgshader2 name="polishedzinc"/>
+				<pwshader name="亜鉛"/>
+				<cgshader name="zirconium"/>
+				<swtexture path="images\textures\metal\cast\cast_fine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="88868C">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.1000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI31 (Iron BrickStone)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.99E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.34"/>
+				<GXY displayname="剛性率" value="0.36E+11"/>
+				<ALPX displayname="温度膨張率" value="0.11E-04"/>
+				<DENS displayname="密度" value="0.66E+04"/>
+				<KX displayname="熱伝導率" value="1.7"/>
+				<C displayname="比熱" value="0.29E+03"/>
+				<SIGXT displayname="抗張力" value="3.50E+8"/>
+				<SIGYLD displayname="降伏強度" value="5.90E+7"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="一般的なｸﾞﾗｽﾌｧｲﾊﾞｰ">
+		<material name="A-ｸﾞﾗｽﾌｧｲﾊﾞｰ" matid="59">
+			<shaders>
+				<pwshader2 name="ｶﾞﾗｽ繊維" isNewShader="1" path="\glass\textured\glass fiber.p2m"/>
+				<cgshader2 name="GlassFibre" ignorescolor="false"/>
+				<pwshader name="磨かれたﾌﾟﾗｽﾁｯｸ1"/>
+				<cgshader name="GlassFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\glassfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="d6e9f5">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="2.44E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="C-ｸﾞﾗｽﾌｧｲﾊﾞｰ" matid="60">
+			<shaders>
+				<pwshader2 name="ｶﾞﾗｽ繊維" isNewShader="1" path="\glass\textured\glass fiber.p2m"/>
+				<cgshader2 name="GlassFibre" ignorescolor="false"/>
+				<pwshader name="磨かれたﾌﾟﾗｽﾁｯｸ1"/>
+				<cgshader name="GlassFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\glassfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="d6e9f5">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="2.52E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="E-ｸﾞﾗｽﾌｧｲﾊﾞｰ" matid="61">
+			<shaders>
+				<pwshader2 name="ｶﾞﾗｽ繊維" isNewShader="1" path="\glass\textured\glass fiber.p2m"/>
+				<cgshader2 name="GlassFibre" ignorescolor="false"/>
+				<pwshader name="磨かれたﾌﾟﾗｽﾁｯｸ1"/>
+				<cgshader name="GlassFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\glassfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="d6e9f5">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="2.77E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="S-ｸﾞﾗｽﾌｧｲﾊﾞｰ" matid="62">
+			<shaders>
+				<pwshader2 name="ｶﾞﾗｽ繊維" isNewShader="1" path="\glass\textured\glass fiber.p2m"/>
+				<cgshader2 name="GlassFibre" ignorescolor="false"/>
+				<pwshader name="磨かれたﾌﾟﾗｽﾁｯｸ1"/>
+				<cgshader name="GlassFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\glassfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="d6e9f5">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.310000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="2.48E+03"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="ｶｰﾎﾞﾝ繊維">
+		<material name="Zoltek Panex 33" matid="63">
+			<shaders>
+				<pwshader2 name="ｶｰﾎﾞﾝ ﾌｧｲﾊﾞｰ ﾀﾞｲﾆｰﾏ ﾌﾟﾚｰﾝ2d" isNewShader="1" path="\plastic\composite\carbon fiber dyneema plain 2d.p2m"/>
+				<cgshader2 name="carbonfiberdyneemaplain" ignorescolor="false"/>
+				<pwshader name="合成ｶｰﾎﾞﾝ繊維0"/>
+				<cgshader name="CarbonFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\carbonfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="ededed">
+				<sldcolorswatch:Optical Ambient="0.600000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.030000" Emission="0.050000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="1.81E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="Hexcel AS4C (3000 長繊維)" matid="64">
+			<shaders>
+				<pwshader2 name="ｶｰﾎﾞﾝ ﾌｧｲﾊﾞｰ単一方向ｲﾝﾚｰ 2d" isNewShader="1" path="\plastic\composite\carbon fiber inlay unidirectional 2d.p2m"/>
+				<cgshader2 name="carbonfiberinlayunidirectional" ignorescolor="false"/>
+				<pwshader name="合成ｶｰﾎﾞﾝ繊維0"/>
+				<cgshader name="CarbonFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\carbonfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="ededed">
+				<sldcolorswatch:Optical Ambient="0.600000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.030000" Emission="0.050000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="1.78E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="Thornel Mat VMA" matid="65">
+			<shaders>
+				<pwshader2 name="ｶｰﾎﾞﾝ ﾌｧｲﾊﾞｰ ｴﾎﾟｷｼ 2d" isNewShader="1" path="\plastic\composite\carbon fiber eproxy 2d.p2m"/>
+				<cgshader2 name="carbonfiberepoxy" ignorescolor="false"/>
+				<pwshader name="合成ｶｰﾎﾞﾝ繊維0"/>
+				<cgshader name="CarbonFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\carbonfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="ededed">
+				<sldcolorswatch:Optical Ambient="0.600000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.030000" Emission="0.050000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="2.0E+03"/>
+			</physicalproperties>
+		</material>
+		<material name="Thornel VCB-20 ｶｰﾎﾞﾝ ｸﾛｽ" matid="66">
+			<shaders>
+				<pwshader2 name="ｶｰﾎﾞﾝ ﾌｧｲﾊﾞｰ ｱﾗﾐﾄﾞ繊維 2d" isNewShader="1" path="\plastic\composite\carbon fiber aramid fabric 2d.p2m"/>
+				<cgshader2 name="carbonfiberaramidfabric" ignorescolor="false"/>
+				<pwshader name="合成ｶｰﾎﾞﾝ繊維0"/>
+				<cgshader name="CarbonFibre" ignorescolor="false"/>
+				<swtexture path="images\textures\fibers\carbonfiber.jpg"/>
+			</shaders>
+			<swatchcolor RGB="ededed">
+				<sldcolorswatch:Optical Ambient="0.600000" Transparency="0.000000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.030000" Emission="0.050000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="1.88E+03"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="ｼﾘｺﾝ">
+		<material name="ｼﾘｺﾝ" matid="67">
+			<shaders>
+				<pwshader2 name="炭素鋼" isNewShader="1" path="\metal\steel\carbon steel.p2m"/>
+				<cgshader2 name="ｼﾘｺﾝ"/>
+				<cgshader name="ｼﾘｺﾝ"/>
+				<swtexture path="images\textures\silicon\silicon.jpg"/>
+			</shaders>
+			<swatchcolor RGB="F4F2F5">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="1.124E+11"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.28"/>
+				<GXY displayname="剛性率" value="4.9E+10 "/>
+				<DENS displayname="密度" value="2.33E+03"/>
+				<KX displayname="熱伝導率" value="124."/>
+				<SIGYLD displayname="降伏強度" value="1.2E+08"/>
+			</physicalproperties>
+		</material>
+		<material name="二酸化ｹｲ素" matid="68">
+			<shaders>
+				<pwshader2 name="ｶﾞﾗｽ(透明)" isNewShader="1" path="\glass\gloss\clear glass.p2m"/>
+				<cgshader2 name="clearglass"/>
+				<cgshader name="SiliconDioxide"/>
+				<swtexture path="images\textures\silicon\silicondioxide.jpg"/>
+			</shaders>
+			<swatchcolor RGB="0000c0">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.000000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="2.648E+03"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="木材">
+		<material name="ぶな" matid="69">
+			<shaders>
+				<pwshader2 name="磨かれたたﾌﾞﾅ材(2D)" isNewShader="1" path="\organic\wood\beech\polished beech 2d.p2m"/>
+				<cgshader2 name="polishedbeech"/>
+				<pwshader name="ぶな材"/>
+				<cgshader name="WoodBeech"/>
+				<swtexture path="images\textures\wood\beech.jpg"/>
+			</shaders>
+			<swatchcolor RGB="E6CF92">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="560"/>
+			</physicalproperties>
+		</material>
+		<material name="西洋杉" matid="70">
+			<shaders>
+				<pwshader2 name="磨かれたｻｸﾗ材(2D)" isNewShader="1" path="\organic\wood\cherry\polished cherry 2d.p2m"/>
+				<cgshader2 name="polishedcherry"/>
+				<pwshader name="松材"/>
+				<cgshader name="WoodRedCedar"/>
+				<swtexture path="images\textures\wood\pine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="E6A962">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="470"/>
+			</physicalproperties>
+		</material>
+		<material name="かえで材" matid="71">
+			<shaders>
+				<pwshader2 name="磨かれたかえで材(2D)" isNewShader="1" path="\organic\wood\maple\polished maple 2d.p2m"/>
+				<cgshader2 name="polishedmaple"/>
+				<pwshader name="かえで材"/>
+				<cgshader name="WoodMaple"/>
+				<swtexture path="images\textures\wood\maple.jpg"/>
+			</shaders>
+			<swatchcolor RGB="D5B481">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="490"/>
+			</physicalproperties>
+		</material>
+		<material name="ｵｰｸ材" matid="72">
+			<shaders>
+				<pwshader2 name="磨かれたｵｰｸ材(2D)" isNewShader="1" path="\organic\wood\oak\polished oak 2d.p2m"/>
+				<cgshader2 name="polishedoak"/>
+				<pwshader name="ﾆｽ加工されたｵｰｸ材(日本原産)"/>
+				<cgshader name="WoodOak"/>
+				<swtexture path="images\textures\wood\grain1.jpg"/>
+			</shaders>
+			<swatchcolor RGB="8F591D">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="560"/>
+			</physicalproperties>
+		</material>
+		<material name="松" matid="73">
+			<shaders>
+				<pwshader2 name="磨かれた松材(2D)" isNewShader="1" path="\organic\wood\pine\polished pine 2d.p2m"/>
+				<cgshader2 name="polishedpine"/>
+				<pwshader name="磨かれた松材"/>
+				<cgshader name="WoodPine"/>
+				<swtexture path="images\textures\wood\pine.jpg"/>
+			</shaders>
+			<swatchcolor RGB="E6CE81">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="340"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾁｰｸ材" matid="74">
+			<shaders>
+				<pwshader2 name="磨かれたﾁｰｸ材(2D)" isNewShader="1" path="\organic\wood\teak\polished teak 2d.p2m"/>
+				<cgshader2 name="polishedteak"/>
+				<pwshader name="ﾆｽ加工されたﾁｰｸ材"/>
+				<cgshader name="WoodTeak"/>
+				<swtexture path="images\textures\wood\grain2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="804418">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="630"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾏﾎｶﾞﾆｰ材" matid="75">
+			<shaders>
+				<pwshader2 name="磨かれたﾏﾎｶﾞﾆｰ材(2D)" isNewShader="1" path="\organic\wood\mahogany\polished mahogany 2d.p2m"/>
+				<cgshader2 name="polishedmahogany"/>
+				<pwshader name="ﾏﾎｶﾞﾆｰ材"/>
+				<cgshader name="WoodMahogany"/>
+				<swtexture path="images\textures\wood\mahogany.jpg"/>
+			</shaders>
+			<swatchcolor RGB="740200">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.800000" Shininess="0.310000" Emission="0.200000"/>
+			</swatchcolor>
+			<xhatch name="ｺﾙｸ" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="600"/>
+			</physicalproperties>
+		</material>
+		<material name="ﾊﾞﾙｻ" matid="81">
+			<shaders>
+				<pwshader2 name="磨かれたたﾌﾞﾅ材(2D)" isNewShader="1" path="\organic\wood\beech\polished beech 2d.p2m"/>
+				<cgshader2 name="polishedbeech"/>
+				<pwshader name="ぶな材"/>
+				<cgshader name="WoodBeech"/>
+				<swtexture path="images\textures\wood\beech.jpg"/>
+			</shaders>
+			<swatchcolor RGB="fcbc84">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="0.000000" Shininess="0.200000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.000000" scale="1.000000"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="2999999232.000000"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.290000"/>
+				<GXY displayname="剛性率" value="299999910.525339"/>
+				<DENS displayname="密度" value="159.989899"/>
+				<KX displayname="熱伝導率" value="0.050000"/>
+				<SIGYLD displayname="降伏強度" value="19999972.000000"/>
+			</physicalproperties>
+		</material>
+	</classification>
+	<classification name="金属以外のその他の材料">
+		<material name="空気" matid="76">
+			<shaders>
+				<pwshader2 name="空気" isNewShader="1" path="\organic\sky\air.p2m"/>
+				<pwshader name="空気"/>
+			</shaders>
+			<swatchcolor RGB="d7ccff">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.900000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="Stars" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="1.1"/>
+				<KX displayname="熱伝導率" value="0.27E-01"/>
+				<C displayname="比熱" value="0.10E+04"/>
+				<VISC displayname="動的粘度" value="0.19E-04"/>
+				<BETA displayname="容積膨張率" value="0.33E-02"/>
+				<GAMMA displayname="比熱比" value="1.40"/>
+			</physicalproperties>
+		</material>
+		<material name="陶磁器" matid="77">
+			<shaders>
+				<pwshader2 name="磁器" isNewShader="1" path="\stone\stoneware\porcelaine.p2m"/>
+				<cgshader2 name="磁器"/>
+				<pwshader name="磁器"/>
+				<cgshader name="ceramicporcelain"/>
+			</shaders>
+			<swatchcolor RGB="E3E3E3">
+				<sldcolorswatch:Optical Ambient="0.80000" Transparency="0.000000" Diffuse="0.800000" Specularity="0.700000" Shininess="0.400000" Emission="0.100000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="22059E+07"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.22"/>
+				<GXY displayname="剛性率" value="90407E+06"/>
+				<ALPX displayname="温度膨張率" value="10800E-09"/>
+				<DENS displayname="密度" value="23000E-01"/>
+				<KX displayname="熱伝導率" value="14949E-04"/>
+				<C displayname="比熱" value="87796E-02"/>
+				<SIGXT displayname="抗張力" value="17234E+04"/>
+				<SIGXC displayname="圧縮強度" value="55149E+04"/>
+			</physicalproperties>
+		</material>
+		<material name="ｶﾞﾗｽ" matid="78">
+			<shaders>
+				<pwshader2 name="ｶﾞﾗｽ(透明)" isNewShader="1" path="\glass\gloss\clear glass.p2m"/>
+				<cgshader2 name="clearglass"/>
+				<pwshader name="ｶﾞﾗｽ(無加工)"/>
+				<cgshader name="Glass"/>
+			</shaders>
+			<swatchcolor RGB="F4F2F5">
+				<sldcolorswatch:Optical Ambient="0.520000" Transparency="0.850000" Diffuse="0.800000" Specularity="1.000000" Shininess="0.400000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI35 (Fire Brick)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="68935E+06"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.23"/>
+				<GXY displayname="剛性率" value="28022E+06"/>
+				<ALPX displayname="温度膨張率" value="90000E-10"/>
+				<DENS displayname="密度" value="24576E-01"/>
+				<KX displayname="熱伝導率" value="74976E-05"/>
+				<C displayname="比熱" value="83461E-02"/>
+			</physicalproperties>
+		</material>
+		<material name="ｺﾞﾑ" matid="79">
+			<shaders>
+				<pwshader2 name="ｺﾞﾑ(光沢)" isNewShader="1" path="\rubber\gloss\glossy rubber.p2m"/>
+				<cgshader2 name="glossyrubber"/>
+				<pwshader name="ｺﾞﾑ"/>
+				<cgshader name="RubberSoft" ignorescolor="false"/>
+				<swtexture path="images\textures\plastic\polished\pplastic2.jpg"/>
+			</shaders>
+			<swatchcolor RGB="626262">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.000000" Diffuse="1.000000" Specularity="0.000000" Shininess="0.000000" Emission="0.000000"/>
+			</swatchcolor>
+			<xhatch name="ANSI34 (Plastic Rubber)" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<EX displayname="弾性率" value="0.61E+07"/>
+				<NUXY displayname="ﾎﾟｱｿﾝ比" value="0.49"/>
+				<GXY displayname="剛性率" value="0.29E+07"/>
+				<ALPX displayname="温度膨張率" value="0.67E-03"/>
+				<DENS displayname="密度" value="0.10E+04"/>
+				<KX displayname="熱伝導率" value="0.14"/>
+				<SIGXT displayname="抗張力" value="1.37871E+07"/>
+				<SIGYLD displayname="降伏強度" value="9.23737E+06"/>
+			</physicalproperties>
+		</material>
+		<material name="水" matid="80">
+			<shaders>
+				<pwshader2 name="波紋(大)" isNewShader="1" path="\organic\water\heavy ripple water.p2m"/>
+				<cgshader2 name="waterheavyripple"/>
+				<pwshader name="水"/>
+				<cgshader name="水"/>
+				<swtexture path="images\textures\organic\water.jpg"/>
+			</shaders>
+			<swatchcolor RGB="86D0E2">
+				<sldcolorswatch:Optical Ambient="1.000000" Transparency="0.750000" Diffuse="1.000000" Specularity="1.000000" Shininess="0.200000" Emission="0.300000"/>
+			</swatchcolor>
+			<xhatch name="沼地" angle="0.0" scale="1.0"/>
+			<physicalproperties>
+				<DENS displayname="密度" value="0.10E+04"/>
+				<KX displayname="熱伝導率" value="0.61"/>
+				<C displayname="比熱" value="0.42E+04"/>
+				<VISC displayname="動的粘度" value="0.87E-03"/>
+				<BETA displayname="容積膨張率" value="0.27E-03"/>
+			</physicalproperties>
+		</material>
+	</classification>
+</mstns:materials>
